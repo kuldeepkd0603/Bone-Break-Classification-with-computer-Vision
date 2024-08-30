@@ -80,12 +80,12 @@ The model is a deep learning model built using Keras with the following architec
 - **Dense(40, activation='relu')**
 - **Dense(10, activation='softmax')**
 ## Model Architecture Summary
-**Input Layer**: Accepts 256x256 RGB images.
-**Convolutional Layers**: Three layers with increasing filter sizes (32, 64, 128) to extract features from the images.
-**Pooling Layers:**MaxPooling layers follow each convolutional layer to downsample the feature maps.
-**Flatten Layer:** Converts the 2D matrix of features into a vector for the fully connected layers.
-**Fully Connected Layers:** Two dense layers for learning non-linear combinations of the features; the last layer uses a sigmoid activation function for binary classification.
-**Dropout Layers:** Added to prevent overfitting by randomly dropping neurons during training
+- **Input Layer**: Accepts 256x256 RGB images.
+- **Convolutional Layers**: Three layers with increasing filter sizes (32, 64, 128) to extract features from the images.
+- **Pooling Layers:**MaxPooling layers follow each convolutional layer to downsample the feature maps.
+- **Flatten Layer:** Converts the 2D matrix of features into a vector for the fully connected layers.
+- **Fully Connected Layers:** Two dense layers for learning non-linear combinations of the features; the last layer uses a sigmoid activation function for binary classification.
+- **Dropout Layers:** Added to prevent overfitting by randomly dropping neurons during training
 ## Classes
 The model classifies fractures into the following types:
 
