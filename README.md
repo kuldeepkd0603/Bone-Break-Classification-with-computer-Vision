@@ -82,13 +82,13 @@ python
 # Classes
 The model classifies fractures into the following types:
 
--**Avulsion Fracture**
--**Comminuted Fracture**
--**Fracture Dislocation**
--**Greenstick Fracture**
--**Hairline Fracture**
--**Impaired Fracture**
--**Longitudinal Fracture**
--**Oblique Fracture**
--**Pathological Fracture**
--**Spiral Fracture**
+- **Avulsion Fracture**
+- **Comminuted Fracture**
+- **Fracture Dislocation**
+- **Greenstick Fracture**
+- **Hairline Fracture**
+- **Impaired Fracture**
+- **Longitudinal Fracture**
+- **Oblique Fracture**
+- **Pathological Fracture**
+- **Spiral Fracture**
