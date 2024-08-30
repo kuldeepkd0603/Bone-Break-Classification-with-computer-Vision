@@ -71,24 +71,24 @@ Model Details
 The model is a deep learning model built using Keras with the following architecture:
 
 python
-Copy code
-- Conv2D(60, (3, 3), activation='relu', input_shape=(256, 256, 3))
-- MaxPooling2D((2, 2))
-- Conv2D(120, (3, 3), activation='relu')
-- MaxPooling2D((2, 2))
-- Flatten()
-- Dense(40, activation='relu')
-- Dense(10, activation='softmax')
-Classes
+## Copy code
+- **Conv2D(60, (3, 3), activation='relu', input_shape=(256, 256, 3))**
+- **MaxPooling2D((2, 2))**
+- **Conv2D(120, (3, 3), activation='relu')**
+- **MaxPooling2D((2, 2))**
+- **Flatten()**
+- **Dense(40, activation='relu')**
+- **Dense(10, activation='softmax')**
+# Classes
 The model classifies fractures into the following types:
 
-Avulsion Fracture
-Comminuted Fracture
-Fracture Dislocation
-Greenstick Fracture
-Hairline Fracture
-Impaired Fracture
-Longitudinal Fracture
-Oblique Fracture
-Pathological Fracture
-Spiral Fracture
+-**Avulsion Fracture**
+-**Comminuted Fracture**
+-**Fracture Dislocation**
+-**Greenstick Fracture**
+-**Hairline Fracture**
+-**Impaired Fracture**
+-**Longitudinal Fracture**
+-**Oblique Fracture**
+-**Pathological Fracture**
+-**Spiral Fracture**
