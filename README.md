@@ -24,42 +24,11 @@ This project involves a deep learning model designed to classify bone fractures 
 
 Create a requirements.txt file with the following content:
 
-<img src="static\image.png" alt="Alt Text" width="500"/>
-<img src="static\image-1.png" alt="Alt Text" width="500"/>
-<img src="static\image-2.png" alt="Alt Text" width="500"/>
-<img src="static\image-3.png" alt="Alt Text" width="500"/>
+<img src="static\image.png" alt="Alt Text" width="800"/>
+<img src="static\image-1.png" alt="Alt Text" width="800"/>
+<img src="static\image-2.png" alt="Alt Text" width="800"/>
+<img src="static\image-3.png" alt="Alt Text" width="800"/>
 
-plaintext
-Copy code
-Flask
-TensorFlow
-Pillow
-numpy
-Then install the dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Download the Model
-
-Ensure that bone_break_classify.h5 is placed in the project directory.
-
-Usage
-Run the Flask Application
-
-bash
-Copy code
-python app.py
-Access the Application
-
-Open a web browser and go to http://127.0.0.1:5000/ to use the application.
-
-Upload an Image
-
-On the home page, upload an image of the bone fracture. The application will process the image and display the predicted type of fracture along with detailed information on the result page.
-
-Model Details
-The model is a deep learning model built using Keras with the following architecture:
 
 
 ## Model Architecture
