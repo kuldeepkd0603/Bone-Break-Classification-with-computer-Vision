@@ -19,7 +19,9 @@ This project involves a deep learning model designed to classify bone fractures 
   - `index.html`: The home page for uploading images.
   - `result.html`: The result page displaying classification details and input image.
 - `static/`
-  - `style.css`: The CSS file for styling the HTML templates.
+   -`uploads`
+- `bone-break-classification-with-computer-vision.ipynb`: model building notbook .
+- `model.json`
 
 ## Installation
 
