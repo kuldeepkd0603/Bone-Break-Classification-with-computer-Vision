@@ -21,28 +21,14 @@ This project involves a deep learning model designed to classify bone fractures 
 - `static/`
    -`uploads`
 - `bone-break-classification-with-computer-vision.ipynb`: model building notbook .
-- `model.json`
-
-## Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-Create and Activate Virtual Environment
-
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install Dependencies
 
 Create a requirements.txt file with the following content:
-![alt text]('static\image.png')
-![alt text](static\image-1.png)
-![alt text](static\image-2.png)
-![alt text](static\image-3.png)
+
+<img src="static\image.png" alt="Alt Text" width="500"/>
+<img src="static\image-1.png" alt="Alt Text" width="500"/>
+<img src="static\image-2.png" alt="Alt Text" width="500"/>
+<img src="static\image-3.png" alt="Alt Text" width="500"/>
+
 plaintext
 Copy code
 Flask
