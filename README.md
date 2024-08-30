@@ -37,10 +37,10 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install Dependencies
 
 Create a requirements.txt file with the following content:
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](static\image.png)
+![alt text](static\image-1.png)
+![alt text](static\image-2.png)
+![alt text](static\image-3.png)
 plaintext
 Copy code
 Flask
